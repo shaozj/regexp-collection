@@ -2,6 +2,13 @@
 
 **专业收集各种 javascript 正则表达式**
 
+
+### 是否是url
+
+```
+let isUrl = str => typeof str === 'string' && /(((http|https):)?\/\/)?[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?/.test(str);
+```
+
 ### 解析 url 的正则表达式
 
 ```
